@@ -591,6 +591,13 @@ Try this:
 psql template1 -c 'create extension hstore;'
 ----
 
+If you use django-hstore in combinaison with GeoDjango (postgis engine) try this command instead:
+[source, bash]
+----
+psql template_postgis -c 'create extension hstore;'
+----
+
+
 More details here on link: http://clarkdave.net/2012/09/postgresql-error-type-hstore-does-not-exist/[PostgreSQL error type hstore does not exist].
 
 How to contribute
